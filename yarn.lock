@@ -50,6 +50,13 @@
     "resolve-global" "1.0.0"
     "yargs" "^17.0.0"
 
+"@commitlint/config-conventional@^17.7.0":
+  "integrity" "sha512-iicqh2o6et+9kWaqsQiEYZzfLbtoWv9uZl8kbI8EGfnc0HeGafQBF7AJ0ylN9D/2kj6txltsdyQs8+2fTMwWEw=="
+  "resolved" "https://registry.npmjs.org/@commitlint/config-conventional/-/config-conventional-17.7.0.tgz"
+  "version" "17.7.0"
+  dependencies:
+    "conventional-changelog-conventionalcommits" "^6.1.0"
+
 "@commitlint/config-validator@^17.6.7":
   "integrity" "sha512-vJSncmnzwMvpr3lIcm0I8YVVDJTzyjy7NZAeXbTXy+MPUdAr9pKyyg7Tx/ebOQ9kqzE6O9WT6jg2164br5UdsQ=="
   "resolved" "https://registry.npmjs.org/@commitlint/config-validator/-/config-validator-17.6.7.tgz"
@@ -315,7 +322,7 @@
   "resolved" "https://registry.npmjs.org/@types/minimist/-/minimist-1.2.2.tgz"
   "version" "1.2.2"
 
-"@types/node@*", "@types/node@20.4.7":
+"@types/node@*", "@types/node@>= 14", "@types/node@20.4.7":
   "integrity" "sha512-bUBrPjEry2QUTsnuEjzjbS7voGWCc30W0qzgMf90GPeDGFRakvrz47ju+oqDAKCXLUCe39u57/ORMl/O/04/9g=="
   "resolved" "https://registry.npmjs.org/@types/node/-/node-20.4.7.tgz"
   "version" "20.4.7"
@@ -688,6 +695,13 @@
   "integrity" "sha512-6qLgrBF4gueoC7AFVHu51nHL9pF9FRjXrH+ceVf7WmAfH3gs+gEYOkvxhjMPjZu57I4AGUGoNTY8V7Hrgf1uqg=="
   "resolved" "https://registry.npmjs.org/conventional-changelog-angular/-/conventional-changelog-angular-6.0.0.tgz"
   "version" "6.0.0"
+  dependencies:
+    "compare-func" "^2.0.0"
+
+"conventional-changelog-conventionalcommits@^6.1.0":
+  "integrity" "sha512-3cS3GEtR78zTfMzk0AizXKKIdN4OvSh7ibNz6/DPbhWWQu7LqE/8+/GqSodV+sywUR2gpJAdP/1JFf4XtN7Zpw=="
+  "resolved" "https://registry.npmjs.org/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-6.1.0.tgz"
+  "version" "6.1.0"
   dependencies:
     "compare-func" "^2.0.0"
 
@@ -2325,9 +2339,9 @@
     "spdx-expression-parse" "^3.0.0"
 
 "vite@^3.0.0", "vite@^3.2.0":
-  "integrity" "sha512-pLrhatFFOWO9kS19bQ658CnRYzv0WLbsPih6R+iFeEEhDOuYgYCX2rztUViMz/uy/V8cLCJvLFeiOK7RJEzHcw=="
-  "resolved" "https://registry.npmmirror.com/vite/-/vite-3.2.2.tgz"
-  "version" "3.2.2"
+  "integrity" "sha512-29pdXjk49xAP0QBr0xXqu2s5jiQIXNvE/xwd0vUizYT2Hzqe4BksNNoWllFVXJf4eLZ+UlVQmXfB4lWrc+t18g=="
+  "resolved" "https://registry.npmjs.org/vite/-/vite-3.2.7.tgz"
+  "version" "3.2.7"
   dependencies:
     "esbuild" "^0.15.9"
     "postcss" "^8.4.18"
